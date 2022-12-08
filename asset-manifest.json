@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.f87db60f.css",
-    "main.js": "/react-gh-pages/static/js/main.0009acbc.js",
-    "static/js/787.2dc4bfe2.chunk.js": "/react-gh-pages/static/js/787.2dc4bfe2.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.f87db60f.css.map": "/react-gh-pages/static/css/main.f87db60f.css.map",
-    "main.0009acbc.js.map": "/react-gh-pages/static/js/main.0009acbc.js.map",
-    "787.2dc4bfe2.chunk.js.map": "/react-gh-pages/static/js/787.2dc4bfe2.chunk.js.map"
+    "main.css": "/venus/static/css/main.f87db60f.css",
+    "main.js": "/venus/static/js/main.b9bf8345.js",
+    "static/js/787.2dc4bfe2.chunk.js": "/venus/static/js/787.2dc4bfe2.chunk.js",
+    "index.html": "/venus/index.html",
+    "main.f87db60f.css.map": "/venus/static/css/main.f87db60f.css.map",
+    "main.b9bf8345.js.map": "/venus/static/js/main.b9bf8345.js.map",
+    "787.2dc4bfe2.chunk.js.map": "/venus/static/js/787.2dc4bfe2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f87db60f.css",
-    "static/js/main.0009acbc.js"
+    "static/js/main.b9bf8345.js"
   ]
 }
