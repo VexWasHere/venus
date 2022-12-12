@@ -1,27 +1,22 @@
-import './App.css';
-import { useRef/*, useState */} from 'react';
-//import React, { Component } from 'react';
+import "./App.css";
+import Tabs from "./Tabs";
 
 function App() {
-  const queryRef = useRef(null);
   return (
-    <div className="App">
-      <div className="topnav">
-  <a className="active" href="#home">Home</a>
-  <a href="#chat">Chat</a>
-  <a href="#support">Support</a>
-  <form>
-        <input name='query' ref={queryRef} type="text" placeholder='Search something awesome' onKeyDown={function(event){if(event.keyCode == 13){alert('query updated')}}}/>
-    </form>
-      </div>
-      <div name='home' className='content'>
-        <h1>Hello World!</h1>
-      </div>
-      <div name='chat' className='content'>
-        <h1>Chat content</h1>
-      </div>
-</div>
+    <div className="main">
+      <h1>Tabs Demo</h1>
+      <Tabs>
+        <div label="Gator">
+          See ya later, <em>Alligator</em>!
+        </div>
+        <div label="Croc">
+          After 'while, <em>Crocodile</em>!
+        </div>
+        <div label="Sarcosuchus">
+          Nothing to see here, this tab is <em>extinct</em>!
+        </div>
+      </Tabs>
+    </div>
   );
-}
-
+};
 export default App;
