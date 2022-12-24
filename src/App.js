@@ -1,12 +1,10 @@
-import "./App.css";
+import React, { useState } from 'react';
+import styled, { css } from 'styled-components'
 
 function App() {
-
   return (
-    <div className="App">
-      <div>
-        <h1>Hello World!</h1>
-      </div>
+    <div>
+      <p>Hello World!</p>
     </div>
   );
 }
