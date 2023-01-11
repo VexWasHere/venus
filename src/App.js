@@ -9,7 +9,7 @@ function App() {
         <div label="My Home">
           <div>
             <h1>Nothing here!</h1>
-            <p>Why don't you add something new?</p>
+            <p>Why don't you <a>add a new shortcut?</a></p>
           </div>
         </div>
         <div label="My Business">
